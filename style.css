@@ -1,0 +1,57 @@
+/*make background tealish grey*/
+body {	
+	background-color: rgb(100,150,150);
+	font-family: 'Roboto', serif;
+}
+
+@media (max-width: 1000px) {
+	body {	
+		background-color: rgb(100,0,150);
+	}
+}
+
+h1 {
+	color:#0000FF;
+    font-size: 48px;
+}
+
+h2 {
+	color: hsl(0,1,1);
+	text-decoration: underline;
+	margin-left: .1ex;
+}
+
+p {
+	border: 2px solid orange;
+	margin-left: .2em;
+}
+
+header {
+	text-align: right;
+	margin-right: 3pt;
+	border-style: solid;
+	border-color: purple;
+	border-radius: 5px;
+	border-width: 1px;
+}
+
+header:hover {
+	font-size: 20px;
+}
+
+ul {
+	padding: 1pc;
+	display: block;
+	margin: 10px;
+}
+
+ol {
+	padding-bottom: 2ch;
+	margin: auto;
+	display: inline;
+
+}
+
+li:active {
+	font-size: 20px;
+}
